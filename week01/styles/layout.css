@@ -14,11 +14,13 @@
 
 .nav{
     display: grid;
-    padding: 10px;
+    padding: 20px;
     grid-column: 1/4;
     grid-row: 2;
     background: black;
     color: white;
+    max-height: 30px;
+    align-items: center;
 }
 
 .nav ul {
@@ -50,4 +52,5 @@
     background: #505050;
     color: white;
     min-height: 80px;
+    text-align: center;
 }

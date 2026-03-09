@@ -1,0 +1,56 @@
+.whole {
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+}
+
+.header {
+    grid-column: 1/4;
+    grid-row: 1;
+    background: #505050;
+    color: white;
+    text-align: left;
+    min-height: 100px;
+}
+
+.nav{
+    display: grid;
+    padding: 20px;
+    grid-column: 1/4;
+    grid-row: 2;
+    background: black;
+    color: white;
+    max-height: 30px;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.main {
+    grid-column: 2/3;
+    grid-row: 3;
+    background: lightgrey;
+    color: black;
+    min-height: 160px;
+}
+
+.aside {
+    grid-column: 3/4;
+    grid-row: 3;
+    background: white;
+    color: black;
+    min-height: 160px;
+}
+
+.footer {
+    grid-column: 1/4;
+    grid-row: 4;
+    background: #505050;
+    color: white;
+    min-height: 80px;
+    text-align: center;
+}

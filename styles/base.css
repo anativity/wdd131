@@ -1,0 +1,93 @@
+:root {
+    --primary: #4b2e83;
+    --secondary: #6a4c93;
+    --fill: #f3d2c1;
+    --fill2: #6fb3b8;
+    --base: #fef6e4;
+    --accent: #f582ae;
+    --text: #001858;
+    --text-soft: #172c66;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background: var(--base);
+    color: var(--text);
+}
+
+.whole {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding: 10px;
+    background: var(--primary);
+    color: var(--base);
+    text-align: center;
+    min-height: 100px;
+}
+
+#course-title {
+    display: block;
+    font-size: 2rem;
+}
+
+.nav{
+    padding: 20px;
+    background: var(--secondary);
+    color: white;
+    max-height: 30px;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+.nav a {
+    color: var(--base);
+    text-decoration: none;
+}
+
+.main {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 2rem auto;
+    padding: 0;
+}
+
+.main h2{
+    grid-column: 1 / -1;
+    text-align: center;
+    color: var(--text-soft);
+}
+
+.card {
+    background: var(--fill);
+    border-radius: 10px;
+    padding: 2 rem;
+}
+
+.card img {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.card.resources {
+    background: var(--fill2);
+}
+
+.footer {
+    background: var(--secondary);
+    color: var(--base);
+    min-height: 80px;
+    text-align: center;
+    padding: 1px;
+}

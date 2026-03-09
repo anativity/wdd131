@@ -1,8 +1,8 @@
 :root {
     --primary: #4b2e83;
     --secondary: #6a4c93;
-    --fill: #f8edf6;
-    --fill2: #b3bedb;
+    --fill: #f8f1f7;
+    --fill2: #c7d0e6;
     --base: #f3f7f9;
     --accent: #f582ae;
     --text: #001858;
@@ -79,6 +79,12 @@ body {
     padding: 2 rem;
 }
 
+.card h3 {
+    text-align: center;
+    background-color: var(--fill2);
+    border-radius: 12px;
+}
+
 .card img {
     width: 100%;
     border-radius: 10px;
@@ -86,7 +92,12 @@ body {
 }
 
 .card.resources {
-    background: var(--fill2);
+    background: white;
+}
+
+
+.card.resources ul {
+    
 }
 
 .footer {

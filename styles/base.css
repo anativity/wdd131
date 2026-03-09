@@ -55,6 +55,10 @@ body {
     text-decoration: none;
 }
 
+.nav a:hover {
+    color: var(--accent);
+}
+
 .main {
     max-width: 100%;
     display: grid;

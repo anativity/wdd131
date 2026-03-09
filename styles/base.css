@@ -1,9 +1,9 @@
 :root {
     --primary: #4b2e83;
     --secondary: #6a4c93;
-    --fill: #f3d2c1;
-    --fill2: #6fb3b8;
-    --base: #fef6e4;
+    --fill: #f8edf6;
+    --fill2: #b3bedb;
+    --base: #f3f7f9;
     --accent: #f582ae;
     --text: #001858;
     --text-soft: #172c66;
@@ -80,8 +80,9 @@ body {
 }
 
 .card img {
-    width: 30%;
+    width: 100%;
     border-radius: 10px;
+    max-width: 250px;
 }
 
 .card.resources {

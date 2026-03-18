@@ -72,7 +72,7 @@ header {
     display: block;
 }
 
-.main {
+/*.main {
     max-width: 100%;
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -85,7 +85,7 @@ header {
     text-align: center;
     color: var(--text-soft);
 }
-
+*/
 .figures {
     display: grid;
     grid-template-columns: 1fr;

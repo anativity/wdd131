@@ -51,9 +51,10 @@ header {
 }
 
 .navigation {
-    display: none;
+    display: flex;
     background: var(--secondary);
     padding: 1rem;
+    display: none;
 }
 
 .navigation a {

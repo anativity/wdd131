@@ -55,6 +55,9 @@ header {
     background: var(--secondary);
     padding: 1rem;
 }
+nav{
+    display:flex;
+}
 
 .navigation a {
     color: var(--base);

@@ -19,6 +19,10 @@ h1, h2, h3 {
     font-family: "Satisfy", cursive;
 }
 
+h2{
+    text-align: center;
+}
+
 header {
     padding: 10px;
     background: var(--primary);

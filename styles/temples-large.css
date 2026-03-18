@@ -1,0 +1,13 @@
+@media (min-width: 700px) {
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        display: flex !important;
+        justify-content: center;
+        gap: 2rem;
+        background: var(--secondary);
+    }
+}
+

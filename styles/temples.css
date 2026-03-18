@@ -10,9 +10,13 @@
 }
 
 body {
-    font-family: "Inter", sans-serif;
+    font-family: "Poppins", sans-serif;
     background: var(--base);
     color: var(--text);
+}
+
+h1, h2, h3 {
+    font-family: "Satisfy", cursive;
 }
 
 .whole {
@@ -21,12 +25,15 @@ body {
     padding: 5px;
 }
 
-.header {
+header {
     padding: 10px;
     background: var(--primary);
     color: var(--base);
     text-align: center;
     min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #menu {
@@ -85,13 +92,13 @@ body {
     gap: 1rem;
 }
 
-
 figure img {
-    max-width: 150px;
-    max-height: 280px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
-.card {
+/*.card {
     background: var(--fill);
     border-radius: 10px;
     padding: 10px;
@@ -112,6 +119,7 @@ figure img {
 .card.resources {
     background: white;
 }
+*/
 
 .footer {
     background: var(--secondary);

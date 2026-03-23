@@ -55,7 +55,7 @@ header {
     background: var(--secondary);
     padding: 1rem;
 }
-nav{
+nav {
     display:flex;
 }
 

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Amanda's week 3 assignment for WDD 131: Dynamic Web Fundamentals. Details about a country I would like to visit.">
+    <meta name="author" content="Amanda Adams">
+    <title>Amanda - WDD 131: Jerusalem</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Jerusalem</h1>
+    </header>
+
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/jerusalem-large.webp" media="(min-width: 600px)">
+                <img src="images/jerusalem-small.webp" alt="Jerusalem city landscape">
+            </picture>
+
+            <section class="data">
+                <h2>Data</h2>
+                <ul>
+                    <li><strong>Area:</strong> 48.3 sq miles</li>
+                    <li><strong>Population:</strong> 971,800</li>
+                    <li><strong>Capital:</strong> Jerusalem</li>
+                    <li><strong>Languages:</strong> Hebrew, Arabic</li>
+                    <li><strong>Currency:</strong> Israeli New Shekel (₪)</li>
+                    <li><strong>Time Zone:</strong> IST UTC+2</li>
+                    <li><strong>Calling Code:</strong> +972</li>
+                    <li><strong>Internet TLD:</strong> .il</li>
+                </ul>
+            </section>
+
+            <section class="weather">
+                <h2>Weather</h2>
+                <img class="weather-icon" src="images/weather.svg" alt="Weather icon">
+                <p><strong>Temperature:</strong> <span id="temp">48</span> °F</p>
+                <p><strong>Conditions:</strong> Clear</p>
+                <p><strong>Wind:</strong> <span id="wind">6</span> mph</p>
+                <p><strong>Wind Chill:</strong> <span id="windchill"></span></p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Amanda Adams</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>

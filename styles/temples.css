@@ -16,11 +16,13 @@ body {
     color: var(--text);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: "Satisfy", cursive;
 }
 
-h2{
+h2 {
     text-align: center;
     font-size: 4rem;
 }
@@ -64,8 +66,9 @@ header {
     background: var(--secondary);
     padding: 1rem;
 }
+
 nav {
-    display:flex;
+    display: flex;
 }
 
 .navigation a {
@@ -96,16 +99,16 @@ nav {
 }
 
 #temple-cards img {
-  width: 800px;
-  height: 500px;      
-  object-fit: cover;  
-  border-radius: 6px; 
+    width: 800px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 6px;
 }
 
 #temple-cards {
-display: grid;
-padding: 16px;
-justify-items: center;
+    display: grid;
+    padding: 16px;
+    justify-items: center;
 }
 
 figure img {

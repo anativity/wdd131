@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+}
+
+main {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    background: #000;
+    opacity: 0;
+    animation: fade 15s ease-out forwards;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -21,6 +21,14 @@ h1, h2, h3 {
 
 h2{
     text-align: center;
+    font-size: 4rem;
+}
+
+h3 {
+    text-align: center;
+    background: #4b2e83;
+    color: #f3f7f9;
+    font-size: 3rem;
 }
 
 header {
@@ -77,6 +85,19 @@ nav {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
+}
+
+#temple-cards img {
+  width: 800px;
+  height: 500px;      
+  object-fit: cover;  
+  border-radius: 6px; 
+}
+
+#temple-cards {
+display: grid;
+padding: 16px;
+justify-items: center;
 }
 
 figure img {

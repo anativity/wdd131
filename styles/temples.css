@@ -87,6 +87,7 @@ nav {
     grid-template-columns: 1fr;
     gap: 1rem;
 }
+
 #temple-cards section {
     background-color: var(--white);
     border: 2px solid var(--secondary);

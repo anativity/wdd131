@@ -1,0 +1,29 @@
+:root {
+    --primary: #4b2e83;
+    --secondary: #6a4c93;
+    --fill: #f8f1f7;
+    --fill2: #c7d0e6;
+    --base: #f3f7f9;
+    --accent: #f582ae;
+    --text: #001858;
+    --text-soft: #172c66;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background: var(--base);
+    color: var(--text);
+    padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Satisfy", cursive;
+}
+
+img {
+	width: 500px;
+	height: auto;
+}

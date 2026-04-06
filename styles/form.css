@@ -62,7 +62,7 @@ textarea {
 
 button {
   background: var(--accent);
-  color: var (--fill);
+  color: var(--fill);
   padding: 1rem;
   font-size: 1rem;
   cursor: pointer;

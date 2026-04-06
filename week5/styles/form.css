@@ -5,6 +5,7 @@
     --fill2: #c7d0e6;
     --base: #f3f7f9;
     --accent: #f582ae;
+    --bold: #de1260;
     --text: #001858;
     --text-soft: #172c66;
     --border: #4c2490;
@@ -43,7 +44,7 @@ span {
 
 .required::after {
   content: " *";
-  color: #b30000;
+  color: var(--bold);
 }
 
 input,

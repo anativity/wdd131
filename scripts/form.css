@@ -1,0 +1,81 @@
+:root {
+    --primary: #4b2e83;
+    --secondary: #6a4c93;
+    --fill: #f8f1f7;
+    --fill2: #c7d0e6;
+    --base: #f3f7f9;
+    --accent: #f582ae;
+    --bold: #de1260;
+    --text: #001858;
+    --text-soft: #172c66;
+    --border: #4c2490;
+}
+
+body {
+  font-family: Georgia, serif;
+  background: var(--fill2);
+  color: var(--text);
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  max-width: 600px;
+  margin: 20px auto;
+  background: var(--fill);
+  padding: 1rem;
+  border: 5px solid var(--border);
+}
+
+.group {
+  margin-bottom: 1rem;
+}
+
+label,
+span {
+  display: block;
+  font-weight: 600;
+}
+
+.required::after {
+  content: " *";
+  color: var(--bold);
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: .5rem;
+  border: 1px solid var(--border);
+  font-size: 1rem;
+}
+
+.rating label {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+button {
+  background: var(--accent);
+  color: white;
+  padding: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--secondary);
+}
+
+.footer {
+    background: var(--secondary);
+    color: var(--base);
+    min-height: 100px;
+    text-align: center;
+    padding: 5px;
+}

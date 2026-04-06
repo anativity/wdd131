@@ -2,28 +2,27 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Amanda's project page for WDD 131: Dynamic Web Fundamentals. Week 5 product review form assignment">
-    <meta name="author" content="Amanda Adams">
-    <title>Amanda Adams - Week 5 product review form</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com"
-        crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Satisfy&display=swap"
-        rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Amanda's project page for WDD 131: Dynamic Web Fundamentals. Week 5 product review form assignment">
+  <meta name="author" content="Amanda Adams">
+  <title>Amanda Adams - Week 5 product review form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Satisfy&display=swap"
+    rel="stylesheet">
 
 
-    <link rel="stylesheet" href="styles/form.css">
-    <script src="scripts/form.js" defer></script>
+  <link rel="stylesheet" href="styles/form.css">
+  <script src="scripts/form.js" defer></script>
 </head>
 
 <body>
 
-<header>
+  <header>
     <h1>Product Review</h1>
   </header>
 
@@ -32,33 +31,47 @@
       <div class="group">
         <label for="product" class="required">Product Name</label>
         <select id="product" name="product" required>
-          <option value="" disabled selected>Select a product...</option>
+          <option value="" disabled selected>Select a product...
+          </option>
         </select>
       </div>
 
       <div class="group">
         <span class="required">Overall Rating</span>
         <div class="rating">
-          <label><input type="radio" name="rating" value="1" required> 1</label>
-          <label><input type="radio" name="rating" value="2"> 2</label>
-          <label><input type="radio" name="rating" value="3"> 3</label>
-          <label><input type="radio" name="rating" value="4"> 4</label>
-          <label><input type="radio" name="rating" value="5"> 5</label>
+          <label for="rate1"><input type="radio" id="rate1"
+              name="rating" value="1" required> 1</label>
+          <label for="rate2"><input type="radio" id="rate2"
+              name="rating" value="2"> 2</label>
+          <label for="rate3"><input type="radio" id="rate3"
+              name="rating" value="3"> 3</label>
+          <label for="rate4"><input type="radio" id="rate4"
+              name="rating" value="4"> 4</label>
+          <label for="rate5"><input type="radio" id="rate5"
+              name="rating" value="5"> 5</label>
         </div>
       </div>
 
+
       <div class="group">
-        <label for="install" class="required">Date of Installation</label>
+        <label for="install" class="required">Date of
+          Installation</label>
         <input type="date" id="install" name="install" required>
       </div>
 
       <div class="group">
         <span>Useful Features</span>
-        <label><input type="checkbox" name="features" value="durable"> Durable</label>
-        <label><input type="checkbox" name="features" value="affordable"> Affordable</label>
-        <label><input type="checkbox" name="features" value="high-quality"> High Quality</label>
-        <label><input type="checkbox" name="features" value="easy-to-use"> Easy to Use</label>
+
+        <label for="feat1"><input type="checkbox" id="feat1"
+            name="features" value="durable"> Durable</label>
+        <label for="feat2"><input type="checkbox" id="feat2"
+            name="features" value="affordable"> Affordable</label>
+        <label for="feat3"><input type="checkbox" id="feat3"
+            name="features" value="high-quality"> High Quality</label>
+        <label for="feat4"><input type="checkbox" id="feat4"
+            name="features" value="easy-to-use"> Easy to Use</label>
       </div>
+
 
       <div class="group">
         <label for="review">Written Review</label>
@@ -74,9 +87,12 @@
     </form>
   </main>
 
+
+  <footer class="footer">
+    <p> © <span id="currentyear"></span> Amanda Adams - Florida, USA
+    </p>
+    <p id="lastModified"></p>
+  </footer>
 </body>
-<footer class="footer">
-            <p> © <span id="currentyear"></span> Amanda Adams - Florida, USA</p>
-            <p id="lastModified"></p>
-        </footer>
+
 </html>

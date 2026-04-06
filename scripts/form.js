@@ -9,6 +9,8 @@ const products = [
   { id: "jj-1969", name: "Warp Equalizer" }
 ];
 
+document.querySelector("#count").textContent = count;
+
 const select = document.querySelector("#product");
 
 products.forEach(p => {

@@ -13,7 +13,7 @@
 
 body {
   font-family: Georgia, serif;
-  background: var(--bg);
+  background: var(--fill2);
   color: var(--text);
   margin: 0;
 }
@@ -26,9 +26,8 @@ header {
 main {
   max-width: 600px;
   margin: 20px auto;
-  background: var(--card);
+  background: var(--fill);
   padding: 1rem;
-  border-radius: var(--radius);
   border: 5px solid var(--border);
 }
 
@@ -53,7 +52,6 @@ textarea {
   width: 100%;
   padding: .5rem;
   border: 1px solid var(--border);
-  border-radius: var(--radius);
   font-size: 1rem;
 }
 
@@ -66,13 +64,12 @@ button {
   background: var(--accent);
   color: white;
   padding: 1rem;
-  border-radius: var(--radius);
   font-size: 1rem;
   cursor: pointer;
 }
 
 button:hover {
-  background: var(--accent-light);
+  background: var(--secondary);
 }
 
 .footer {

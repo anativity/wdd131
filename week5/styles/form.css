@@ -38,6 +38,7 @@ main {
 label,
 span {
   display: block;
+  font-weight: 600;
 }
 
 .required::after {

@@ -146,6 +146,7 @@ form {
   gap: var(--space-m);
   max-width: 500px;
   margin: 0 auto;
+  padding: 0 var(--space-m);
 }
 
 form input,
@@ -192,8 +193,9 @@ footer {
 
 @media (max-width: 600px) {
   .hero-box {
-    top: 40%;
+    top: 30%;
     padding: var(--space-m);
     width: 90%;
+    margin-bottom: 3rem;
   }
 }

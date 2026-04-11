@@ -192,10 +192,18 @@ footer {
 }
 
 @media (max-width: 600px) {
+  .hero {
+    min-height: 350px;
+  }
+  
   .hero-box {
     top: 30%;
     padding: var(--space-m);
     width: 90%;
     margin-bottom: 3rem;
+  }
+
+  main {
+    padding: 0 var(--space-m);
   }
 }

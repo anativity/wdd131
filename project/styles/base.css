@@ -100,6 +100,7 @@ nav a:hover {
 
 .hero {
   position: relative;
+  margin-top: 100px;
 }
 
 .hero img {
@@ -203,7 +204,7 @@ footer {
     margin-bottom: 3rem;
   }
 
-  main {
+  body {
     padding-left: var(--space-m);
     padding-right: var(--space-m);
   }

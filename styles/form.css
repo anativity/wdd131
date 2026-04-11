@@ -1,14 +1,14 @@
 :root {
-    --primary: #4b2e83;
-    --secondary: #6a4c93;
-    --fill: #f8f1f7;
-    --fill2: #c7d0e6;
-    --base: #f3f7f9;
-    --accent: #f582ae;
-    --bold: #de1260;
-    --text: #001858;
-    --text-soft: #172c66;
-    --border: #4c2490;
+  --primary: #4b2e83;
+  --secondary: #6a4c93;
+  --fill: #f8f1f7;
+  --fill2: #c7d0e6;
+  --base: #f3f7f9;
+  --accent: #f582ae;
+  --bold: #de1260;
+  --text: #001858;
+  --text-soft: #172c66;
+  --border: #4c2490;
 }
 
 body {
@@ -31,6 +31,10 @@ main {
   border: 5px solid var(--border);
 }
 
+.date,
+.features,
+.write,
+.name,
 .group {
   margin-bottom: 1rem;
 }
@@ -39,6 +43,7 @@ label,
 span {
   display: block;
   font-weight: 600;
+  margin-bottom: .5rem;
 }
 
 .required::after {
@@ -55,7 +60,7 @@ textarea {
   font-size: 1rem;
 }
 
-.rating label {
+.ratings label {
   display: inline-block;
   margin-right: 1rem;
 }
@@ -73,11 +78,11 @@ button:hover {
 }
 
 .footer {
-    background: var(--secondary);
-    color: var(--base);
-    min-height: 100px;
-    text-align: center;
-    padding: 5px;
+  background: var(--secondary);
+  color: var(--base);
+  min-height: 100px;
+  text-align: center;
+  padding: 5px;
 }
 
 @media (min-width: 600px) {
@@ -85,4 +90,3 @@ button:hover {
     padding: 2rem;
   }
 }
-
